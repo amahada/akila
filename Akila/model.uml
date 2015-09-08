@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_t_X14FXLEeWbcayUy2e4hw" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0dAnsFXLEeWbcayUy2e4hw" name="User 1"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_32oO4FXLEeWbcayUy2e4hw" name="Navigation"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_5_3MQFXLEeWbcayUy2e4hw" name="Accident detection"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8QCfIFXLEeWbcayUy2e4hw" name="Connects to the smartphone"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FxjRoFXMEeWbcayUy2e4hw" name="Remote Telematics"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MC2QkFXMEeWbcayUy2e4hw" name="Location Based ads"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SIW2QFXMEeWbcayUy2e4hw" name="Usage based insurance"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VHh9IFXMEeWbcayUy2e4hw" name="live traffic information"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YCZy0FXMEeWbcayUy2e4hw" name="Route planing"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cb3GYFXMEeWbcayUy2e4hw" name="Finding parking spots"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_eecCIFXMEeWbcayUy2e4hw" name="Analyze driving behaviour and engine"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jCCJIFXMEeWbcayUy2e4hw" name="Finding Park Spot"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lNHgoFXMEeWbcayUy2e4hw" name="Toll Payment using Mobile"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qW-WYFXMEeWbcayUy2e4hw" name="SMS reading, writing"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_uPVvEFXMEeWbcayUy2e4hw" name="Car sharing"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yOnBAFXMEeWbcayUy2e4hw" name="Stolen vehicle recovery"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1nRl8FXMEeWbcayUy2e4hw" name="Remote control/Surveillance"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7VMyEFXMEeWbcayUy2e4hw" name="Fuel Efficiency analysis"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-r5oIFXMEeWbcayUy2e4hw" name="M2M connections to prevent accidents"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ge64gFXNEeWbcayUy2e4hw" name="Wrong waydriver warning"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LvGYsFXNEeWbcayUy2e4hw" name="Collision detected"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Oz934FXNEeWbcayUy2e4hw" name="User 2"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QvGH0FXNEeWbcayUy2e4hw" name="User 3"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_T9ogYFXNEeWbcayUy2e4hw" name="Emergency Contact"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZNtS4FXNEeWbcayUy2e4hw" name="Database of the car location"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gG2U8FXNEeWbcayUy2e4hw" name="Stores Information about the car"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lQ70MFXNEeWbcayUy2e4hw" memberEnd="_lRDwAFXNEeWbcayUy2e4hw _lRFlMFXNEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lRAFoFXNEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lRBTwFXNEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lRDwAFXNEeWbcayUy2e4hw" name="navigation" type="_32oO4FXLEeWbcayUy2e4hw" association="_lQ70MFXNEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lRFlMFXNEeWbcayUy2e4hw" name="user 1" type="_0dAnsFXLEeWbcayUy2e4hw" association="_lQ70MFXNEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mFVFkFXNEeWbcayUy2e4hw" memberEnd="_mFXh0FXNEeWbcayUy2e4hw _mFYI4FXNEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mFWTsFXNEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mFW6wFXNEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mFXh0FXNEeWbcayUy2e4hw" name="accident detection" type="_5_3MQFXLEeWbcayUy2e4hw" association="_mFVFkFXNEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mFYI4FXNEeWbcayUy2e4hw" name="user 1" type="_0dAnsFXLEeWbcayUy2e4hw" association="_mFVFkFXNEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o2j3EFXNEeWbcayUy2e4hw" memberEnd="_o2mTUFXNEeWbcayUy2e4hw _o2m6YFXNEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o2lFMFXNEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o2lsQFXNEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o2mTUFXNEeWbcayUy2e4hw" name="connects to the smartphone" type="_8QCfIFXLEeWbcayUy2e4hw" association="_o2j3EFXNEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o2m6YFXNEeWbcayUy2e4hw" name="user 1" type="_0dAnsFXLEeWbcayUy2e4hw" association="_o2j3EFXNEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p7kXUFXNEeWbcayUy2e4hw" memberEnd="_p7mzkFXNEeWbcayUy2e4hw _p7oBsFXNEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p7llcFXNEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p7mMgFXNEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p7mzkFXNEeWbcayUy2e4hw" name="remote telematics" type="_FxjRoFXMEeWbcayUy2e4hw" association="_p7kXUFXNEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p7oBsFXNEeWbcayUy2e4hw" name="user 1" type="_0dAnsFXLEeWbcayUy2e4hw" association="_p7kXUFXNEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sVjGcFXNEeWbcayUy2e4hw" memberEnd="_sVmJwFXNEeWbcayUy2e4hw _sVmw0FXNEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sVk7oFXNEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sVlisFXNEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVmJwFXNEeWbcayUy2e4hw" name="location based ads" type="_MC2QkFXMEeWbcayUy2e4hw" association="_sVjGcFXNEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sVmw0FXNEeWbcayUy2e4hw" name="user 1" type="_0dAnsFXLEeWbcayUy2e4hw" association="_sVjGcFXNEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tkQVQFXNEeWbcayUy2e4hw" memberEnd="_tkRjYFXNEeWbcayUy2e4hw _tkRjYVXNEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tkQ8UFXNEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tkQ8UVXNEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tkRjYFXNEeWbcayUy2e4hw" name="usage based insurance" type="_SIW2QFXMEeWbcayUy2e4hw" association="_tkQVQFXNEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tkRjYVXNEeWbcayUy2e4hw" name="user 1" type="_0dAnsFXLEeWbcayUy2e4hw" association="_tkQVQFXNEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ymYyYFXNEeWbcayUy2e4hw" client="_FxjRoFXMEeWbcayUy2e4hw" supplier="_yOnBAFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_3za38FXNEeWbcayUy2e4hw" client="_FxjRoFXMEeWbcayUy2e4hw" supplier="_1nRl8FXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_5Gb_AFXNEeWbcayUy2e4hw" client="_FxjRoFXMEeWbcayUy2e4hw" supplier="_7VMyEFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_7-OrgFXNEeWbcayUy2e4hw" client="_gG2U8FXNEeWbcayUy2e4hw" supplier="_yOnBAFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_8ifPIFXNEeWbcayUy2e4hw" client="_gG2U8FXNEeWbcayUy2e4hw" supplier="_1nRl8FXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_9N9OAFXNEeWbcayUy2e4hw" client="_gG2U8FXNEeWbcayUy2e4hw" supplier="_7VMyEFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BUBrgFXOEeWbcayUy2e4hw" memberEnd="_BUEu0FXOEeWbcayUy2e4hw _BUFV4FXOEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BUDgsFXOEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BUEHwFXOEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BUEu0FXOEeWbcayUy2e4hw" name="stores information about the car" type="_gG2U8FXNEeWbcayUy2e4hw" association="_BUBrgFXOEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BUFV4FXOEeWbcayUy2e4hw" name="database of the car location" type="_ZNtS4FXNEeWbcayUy2e4hw" association="_BUBrgFXOEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_N-JNsFXOEeWbcayUy2e4hw" client="_32oO4FXLEeWbcayUy2e4hw" supplier="_VHh9IFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Osm2MFXOEeWbcayUy2e4hw" client="_32oO4FXLEeWbcayUy2e4hw" supplier="_YCZy0FXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_PWrt8FXOEeWbcayUy2e4hw" client="_32oO4FXLEeWbcayUy2e4hw" supplier="_cb3GYFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_QPrygFXOEeWbcayUy2e4hw" client="_5_3MQFXLEeWbcayUy2e4hw" supplier="_eecCIFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_RCP34FXOEeWbcayUy2e4hw" client="_eecCIFXMEeWbcayUy2e4hw" supplier="_-r5oIFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Rk55AFXOEeWbcayUy2e4hw" client="_eecCIFXMEeWbcayUy2e4hw" supplier="_Ge64gFXNEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_SOXswFXOEeWbcayUy2e4hw" client="_eecCIFXMEeWbcayUy2e4hw" supplier="_LvGYsFXNEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_TdIl8FXOEeWbcayUy2e4hw" client="_8QCfIFXLEeWbcayUy2e4hw" supplier="_jCCJIFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_T_JG0FXOEeWbcayUy2e4hw" client="_8QCfIFXLEeWbcayUy2e4hw" supplier="_lNHgoFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UpBxUFXOEeWbcayUy2e4hw" client="_8QCfIFXLEeWbcayUy2e4hw" supplier="_qW-WYFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Ve6QcFXOEeWbcayUy2e4hw" client="_8QCfIFXLEeWbcayUy2e4hw" supplier="_uPVvEFXMEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Yfsg4FXOEeWbcayUy2e4hw" name="ecall" client="_LvGYsFXNEeWbcayUy2e4hw" supplier="_T9ogYFXNEeWbcayUy2e4hw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_b895AFXOEeWbcayUy2e4hw" name="connects to smartphone" memberEnd="_b9AVQVXOEeWbcayUy2e4hw _b9BjYFXOEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b8_uMFXOEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b9AVQFXOEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_b9AVQVXOEeWbcayUy2e4hw" name="m2m connections to prevent accidents" type="_-r5oIFXMEeWbcayUy2e4hw" association="_b895AFXOEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_b9BjYFXOEeWbcayUy2e4hw" name="user 3" type="_QvGH0FXNEeWbcayUy2e4hw" association="_b895AFXOEeWbcayUy2e4hw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fle30FXOEeWbcayUy2e4hw" memberEnd="_flhUEFXOEeWbcayUy2e4hw _flh7IFXOEeWbcayUy2e4hw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_flgF8FXOEeWbcayUy2e4hw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_flgtAFXOEeWbcayUy2e4hw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_flhUEFXOEeWbcayUy2e4hw" name="m2m connections to prevent accidents" type="_-r5oIFXMEeWbcayUy2e4hw" association="_fle30FXOEeWbcayUy2e4hw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_flh7IFXOEeWbcayUy2e4hw" name="user 2" type="_Oz934FXNEeWbcayUy2e4hw" association="_fle30FXOEeWbcayUy2e4hw"/>
+  </packagedElement>
+</uml:Model>
